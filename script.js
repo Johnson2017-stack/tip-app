@@ -8,7 +8,7 @@ function handleCalculateTip() {
     billAmount = inputElement.value
     tipAmount = billAmount * .12;
     
-    tipAmountElement.innnerHTML = `You Should Tip ${tipAmount}`;
+    tipAmountElement.innerHTML = `You should tip ${tipAmount}`;
 }
 
 buttonElement.addEventListener("click", handleCalculateTip);
